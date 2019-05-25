@@ -179,13 +179,13 @@ WantedBy=multi-user.target
 
 ## Guide 
 
-Use terraform 0.11.13 ( I will move to 0.12 soon )
-Need a way to authen to AWS from your terminal with admin permission ( for just easy testing ). 
-My way is export variables AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
-Change public key to ssh server at data/credentails/ssh-key.pub if needed.
+* Use terraform 0.11.13 ( I will move to 0.12 soon )
+* Need a way to authen to AWS from your terminal with admin permission ( for just easy testing ). 
+* My way is export variables AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
+* Change public key to ssh server at data/credentails/ssh-key.pub if needed.
 
-terraform init
-terraform apply -auto-approve
+> terraform init
+> terraform apply -auto-approve
 
 The anything else is already in the code. Please check. 
 

@@ -185,6 +185,7 @@ WantedBy=multi-user.target
 * Change public key to ssh server at data/credentails/ssh-key.pub if needed.
 
 > terraform init
+> 
 > terraform apply -auto-approve
 
 The anything else is already in the code. Please check. 

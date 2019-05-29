@@ -82,6 +82,7 @@ while True:
       QueueUrl=queue_url,
       MessageBody=('%s $localipv4 %d' % (time_stamp, random_int))
     )
+    re_send = False
   except Exception as e:
     re_send = True
     continue
